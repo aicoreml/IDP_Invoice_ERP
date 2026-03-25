@@ -1,0 +1,62 @@
+# IDP_App Dependencies
+
+# Document Processing
+PyMuPDF4LLM>=0.0.5
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+pdfplumber>=0.10.0
+pdf2image>=1.16.0
+Pillow>=10.0.0
+
+# OCR (pytesseract only - paddlepaddle not available on macOS)
+pytesseract>=0.3.10
+# paddleocr>=2.7.0  # Not available on macOS ARM64
+# paddlepaddle>=2.5.0  # Not available on macOS ARM64
+
+# Embeddings & Vector DB
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# LLM
+ollama>=0.1.0
+openai>=1.0.0
+
+# UI
+gradio>=4.0.0
+
+# Document Loading
+llama-index>=0.10.0
+llama-index-readers-file>=0.1.0
+unstructured>=0.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+loguru>=0.7.0
+pandas>=2.0.0
+
+# Table Extraction
+camelot-py>=0.11.0
+tabula-py>=2.7.0
+
+# Web Framework (optional, for API)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# HTTP Client (for API exports)
+requests>=2.31.0
+
+# SAP HANA Database (optional - choose one)
+# Option 1: Official SAP driver (requires manual install)
+# hdbcli>=2.19.0  # Download from SAP: https://launchpad.support.sap.com/#/software/DBACOCKPIT
+# Option 2: Open source alternative
+pyhdb>=0.3.4
+
+# UI (optional)
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
