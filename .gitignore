@@ -37,3 +37,5 @@ Thumbs.db
 
 #Streamlit
 .streamlit/secrets.toml
+
+LINKEDIN_POST_DE.md
